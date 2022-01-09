@@ -1,0 +1,28 @@
+@import "../../utils/vars.scss";
+
+.works {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  .works__title {
+    text-decoration: underline solid $primary-color-shadow 0.2em;
+    color: $text-primary;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .works__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 40px;
+    place-items: center;
+    margin: 0 2.5rem;
+
+    .works__work {
+      width: 300px;
+      height: 300px;
+      border-radius: 5px;
+      background-color: $primary-color;
+    }
+  }
+}

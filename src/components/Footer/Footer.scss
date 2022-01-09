@@ -1,0 +1,12 @@
+@import "../../utils/vars.scss";
+
+.footer {
+    width: 100%;
+    height: 70px;
+    box-shadow: -2px -3px 10px $primary-color-shadow;
+    // position: relative;
+    // left: 2%;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+}
